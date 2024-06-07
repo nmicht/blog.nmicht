@@ -1,4 +1,8 @@
-# The meaning of friendship
+---
+layout: post
+title: The meaning of friendship
+tags: life journaling
+---
 
 In the last days, a lot of thinking has been going in my mind about what is the meaning of friendships, the expectations and the social conventions.
 
