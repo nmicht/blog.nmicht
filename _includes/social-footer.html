@@ -1,0 +1,7 @@
+<ul class="social-media-list footer">
+{%- for entry in site.minima.social_links -%}
+  {%- if entry.footer == true -%}
+    {%- include social-item.html item = entry -%}
+  {%- endif -%}
+{%- endfor -%}
+</ul>

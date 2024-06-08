@@ -51,20 +51,23 @@ minima:
 
   # Generate social links in footer.
   social_links:
-  #  - { platform: devto,          user_url: "https://dev.to/jekyll" }
-  #  - { platform: dribbble,       user_url: "https://dribbble.com/jekyll" }
-  #  - { platform: facebook,       user_url: "https://www.facebook.com/jekyll" }
-  #  - { platform: flickr,         user_url: "https://www.flickr.com/photos/jekyll" }
-    - { platform: github,         user_url: "https://github.com/nmicht" }
-  #  - { platform: gitlab,         user_url: "https://gitlab.com/jekyll" }
-  #  - { platform: google_scholar, user_url: "https://scholar.google.com/citations?user=qc6CJjYAAAAJ" }
-  #  - { platform: instagram,      user_url: "https://www.instagram.com/jekyll" }
-  #  - { platform: keybase,        user_url: "https://keybase.io/jekyll" }
-    - { platform: linkedin,       user_url: "https://www.linkedin.com/in/michelletorresv" }
-  #  - { platform: microdotblog,   user_url: "https://micro.blog/jekyll" }
-  #  - { platform: pinterest,      user_url: "https://www.pinterest.com/jekyll" }
-  #  - { platform: stackoverflow,  user_url: "https://stackoverflow.com/users/1234567/jekyll" }
-  #  - { platform: telegram,       user_url: "https://t.me/jekyll" }
-  #  - { platform: twitter,        user_url: "https://twitter.com/jekyllrb" }
-    - { platform: x,              user_url: "https://x.com/nmicht" }
-  #  - { platform: youtube,        user_url: "https://www.youtube.com/jekyll" }
+    - { platform: linkedin,       user_url: "https://www.linkedin.com/in/michelletorresv", footer: true }
+    - { platform: github,         user_url: "https://github.com/nmicht", footer: true }
+    - { platform: gitlab,         user_url: "https://gitlab.com/nmicht", footer: false }
+    - { platform: devto,          user_url: "https://dev.to/nmicht", footer: false }
+    - { platform: stackoverflow,  user_url: "https://stackoverflow.com/users/2945909/nmicht", footer: false }
+    - { platform: instagram,      user_url: "https://www.instagram.com/nmicht", footer: false }
+    - { platform: x,              user_url: "https://x.com/nmicht", footer: true }
+    - { platform: spotify,        user_url: "https://open.spotify.com/user/1276838092", footer: false }
+    - { platform: goodreads,      user_url: "http://www.goodreads.com/nmicht", footer: false }
+    - { platform: amazon,         user_url: "https://www.amazon.de/hz/wishlist/ls/1SZ4R6ZYSMNBC", footer: false }
+  #  - { platform: dribbble,       user_url: "https://dribbble.com/jekyll", footer: false }
+  #  - { platform: facebook,       user_url: "https://www.facebook.com/jekyll", footer: false }
+  #  - { platform: flickr,         user_url: "https://www.flickr.com/photos/jekyll", footer: false }
+  #  - { platform: google_scholar, user_url: "https://scholar.google.com/citations?user=qc6CJjYAAAAJ", footer: false }
+  #  - { platform: keybase,        user_url: "https://keybase.io/jekyll", footer: false }
+  #  - { platform: microdotblog,   user_url: "https://micro.blog/jekyll", footer: false }
+  #  - { platform: pinterest,      user_url: "https://www.pinterest.com/jekyll", footer: false }
+  #  - { platform: telegram,       user_url: "https://t.me/jekyll", footer: false }
+  #  - { platform: twitter,        user_url: "https://twitter.com/jekyllrb", footer: false }
+  #  - { platform: youtube,        user_url: "https://www.youtube.com/jekyll", footer: false }

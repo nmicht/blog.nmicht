@@ -1,0 +1,27 @@
+$theme-color: #8c408b;
+$theme-color-dark: #3B1C3B;
+
+a {
+    color: $theme-color !important;
+
+    &:visited {
+        color: $theme-color-dark !important;
+    }
+}
+
+.social-media-list {
+    display: grid !important;
+    
+    li a:hover {
+        background-color: lighten($theme-color, 50%);
+        color: $theme-color;
+    }
+
+    &.footer {
+        display: table !important;
+
+        span {
+            display: none;
+        }
+    }
+}
