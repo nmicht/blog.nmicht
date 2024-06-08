@@ -1,0 +1,8 @@
+{% assign tags = include.tags %}
+&nbsp;• <span class="p-tags">[
+    {% for tag in tags %}
+        {% capture tag_name %}{{ tag }}{% endcapture %}
+        <a href="/tag/{{ tag_name }}">{{ tag_name }}</a>
+        {%- if forloop.last == false %}, {% endif -%}
+    {% endfor %}
+]</span>

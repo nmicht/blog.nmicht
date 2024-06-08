@@ -25,13 +25,7 @@ layout: base
         {% endfor %}
       {%- endif -%}
       {%- if page.tags -%}
-        &nbsp;• <span class="p-tags">[
-        {% for tag in page.tags %}
-          {% capture tag_name %}{{ tag }}{% endcapture %}
-            <a href="/tag/{{ tag_name }}">{{ tag_name }}</a>
-            {%- if forloop.last == false %}, {% endif -%}
-        {% endfor %}
-        ]</span>
+        {%- include tags-list.html tags = page.tags -%}
       {%- endif -%}
     </p>
   </header>
