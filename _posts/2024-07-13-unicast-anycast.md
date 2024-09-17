@@ -55,7 +55,6 @@ Imagine you have a letter to send. If you send it to one specific friend, that's
 
 ## References
 
-- [What is Unicast?](https://www.cloudflare.com/learning/cdn/glossary/unicast/)
-- [What is Anycast?](https://www.cloudflare.com/learning/cdn/glossary/anycast/)
+- [What is Anycast?](https://www.cloudflare.com/learning/cdn/glossary/anycast-network/)
 - [Google Cloud Load Balancing](https://cloud.google.com/load-balancing/docs/anycast-architecture)
 

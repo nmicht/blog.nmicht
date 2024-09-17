@@ -42,5 +42,3 @@ Here are some useful links if you want to dig deeper:
 - [How Amazon Web Services (AWS) Works](https://aws.amazon.com/what-is-aws/)
 - [Understanding CDN](https://www.cloudflare.com/learning/cdn/what-is-a-cdn/)
 
-
-_Disclaimer: This post was generated with the help of ChatGPT_
